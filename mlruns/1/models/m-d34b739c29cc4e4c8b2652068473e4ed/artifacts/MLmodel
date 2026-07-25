@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/subha/mlflow-wilt-project/mlruns/1/models/m-d34b739c29cc4e4c8b2652068473e4ed/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.9
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.14.0
+model_id: m-d34b739c29cc4e4c8b2652068473e4ed
+model_size_bytes: 119078
+model_uuid: m-d34b739c29cc4e4c8b2652068473e4ed
+prompts: null
+run_id: c0a79c3274b2426eb69ddae9c387e76e
+utc_time_created: '2026-07-25 16:05:25.247555'
