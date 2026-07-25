@@ -7,6 +7,11 @@ import pandas as pd
 from sklearn.metrics import classification_report, f1_score, recall_score
 from xgboost import XGBClassifier
 
+# Store MLflow data as plain files in ./mlruns
+# (git-friendly, works consistently
+# both locally and in GitHub Actions, instead of the local SQLite database)
+mlflow.set_tracking_uri("file:./mlruns")
+
 # Load training and testing data
 train = pd.read_csv("data/training.csv")
 test = pd.read_csv("data/testing.csv")

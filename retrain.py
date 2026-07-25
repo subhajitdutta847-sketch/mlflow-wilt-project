@@ -10,6 +10,11 @@ from sklearn.metrics import recall_score
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
+# Store MLflow data as plain files in ./mlruns
+# (git-friendly, works consistently
+# both locally and in GitHub Actions, instead of the local SQLite database)
+mlflow.set_tracking_uri("file:./mlruns")
+
 # Client used to fetch/compare/promote models in the registry
 client = mlflow.tracking.MlflowClient()
 
