@@ -23,6 +23,8 @@ jobs:
         run: pip install mlflow scikit-learn pandas xgboost
 
       - name: Run retrain script
+        env:
+          MLFLOW_ALLOW_FILE_STORE: "true"
         run: python retrain.py
 
       - name: Commit updated model registry
