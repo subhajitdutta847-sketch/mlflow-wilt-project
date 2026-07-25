@@ -22,6 +22,16 @@ jobs:
       - name: Install dependencies
         run: pip install mlflow scikit-learn pandas xgboost
 
+      - name: Train baseline model
+        env:
+          MLFLOW_ALLOW_FILE_STORE: "true"
+        run: python train.py
+
+      - name: Register baseline model
+        env:
+          MLFLOW_ALLOW_FILE_STORE: "true"
+        run: python register_model.py
+
       - name: Run retrain script
         env:
           MLFLOW_ALLOW_FILE_STORE: "true"
