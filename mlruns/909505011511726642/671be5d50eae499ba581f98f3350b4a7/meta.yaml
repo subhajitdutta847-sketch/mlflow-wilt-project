@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642/671be5d50eae499ba581f98f3350b4a7/artifacts
+end_time: 1785023038040
+entry_point_name: ''
+experiment_id: '909505011511726642'
+lifecycle_stage: active
+run_id: 671be5d50eae499ba581f98f3350b4a7
+run_name: baseline_logreg
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785023021385
+status: 3
+tags: []
+user_id: subha

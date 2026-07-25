@@ -1,0 +1,16 @@
+creation_timestamp: 1785023063388
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1785023063388
+model_id: m-8da5176483374dc6b2e96c4f020b3cc8
+name: wilt-model
+run_id: 99e3a62ed3e94a0f96a1c9f8fe700eb9
+run_link: null
+source: models:/m-8da5176483374dc6b2e96c4f020b3cc8
+status: READY
+status_message: null
+storage_location: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642/models/m-8da5176483374dc6b2e96c4f020b3cc8/artifacts
+user_id: null
+version: 2
+workspace: default

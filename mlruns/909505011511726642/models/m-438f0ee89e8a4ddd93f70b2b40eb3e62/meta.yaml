@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642/models/m-438f0ee89e8a4ddd93f70b2b40eb3e62/artifacts
+creation_timestamp: 1785023021726
+experiment_id: '909505011511726642'
+last_updated_timestamp: 1785023038007
+model_id: m-438f0ee89e8a4ddd93f70b2b40eb3e62
+model_type: null
+name: model
+source_run_id: 671be5d50eae499ba581f98f3350b4a7
+status: 2
+status_message: null

@@ -2,12 +2,19 @@
 
 import mlflow
 
+# Store MLflow data as plain files in ./mlruns
+# (git-friendly, works consistently
+# both locally and in GitHub Actions, instead of the local SQLite database)
+mlflow.set_tracking_uri("file:./mlruns")
+
 # Client used to search runs and manage the model registry
 client = mlflow.tracking.MlflowClient()
 
 # Find the most recent run named "baseline_logreg" (our chosen best model)
+experiment = mlflow.get_experiment_by_name("wilt-classification")
+
 runs = client.search_runs(
-    experiment_ids=["1"],
+    experiment_ids=[experiment.experiment_id],
     filter_string="tags.mlflow.runName = 'baseline_logreg'",
     order_by=["start_time DESC"],
     max_results=1

@@ -1,0 +1,9 @@
+artifact_location: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642
+creation_time: 1785023020983
+effective_trace_archival_retention: null
+experiment_id: '909505011511726642'
+last_update_time: 1785023020983
+lifecycle_stage: active
+name: wilt-classification
+trace_location: null
+workspace: default
