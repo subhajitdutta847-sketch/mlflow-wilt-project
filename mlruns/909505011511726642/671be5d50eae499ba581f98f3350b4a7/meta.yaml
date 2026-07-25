@@ -1,4 +1,4 @@
-artifact_uri: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642/671be5d50eae499ba581f98f3350b4a7/artifacts
+artifact_uri: file:./mlruns/909505011511726642/671be5d50eae499ba581f98f3350b4a7/artifacts
 end_time: 1785023038040
 entry_point_name: ''
 experiment_id: '909505011511726642'

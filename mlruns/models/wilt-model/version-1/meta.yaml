@@ -10,7 +10,7 @@ run_link: null
 source: models:/m-438f0ee89e8a4ddd93f70b2b40eb3e62
 status: READY
 status_message: null
-storage_location: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642/models/m-438f0ee89e8a4ddd93f70b2b40eb3e62/artifacts
+storage_location: file:./mlruns/909505011511726642/models/m-438f0ee89e8a4ddd93f70b2b40eb3e62/artifacts
 user_id: null
 version: 1
 workspace: default

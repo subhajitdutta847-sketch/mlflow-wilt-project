@@ -1,4 +1,4 @@
-artifact_path: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642/models/m-8da5176483374dc6b2e96c4f020b3cc8/artifacts
+artifact_path: file:./mlruns/909505011511726642/models/m-8da5176483374dc6b2e96c4f020b3cc8/artifacts
 flavors:
   python_function:
     env:

@@ -1,4 +1,4 @@
-artifact_location: file:///C:/Users/subha/mlflow-wilt-project/mlruns/909505011511726642/models/m-8da5176483374dc6b2e96c4f020b3cc8/artifacts
+artifact_location: file:./mlruns/909505011511726642/models/m-8da5176483374dc6b2e96c4f020b3cc8/artifacts
 creation_timestamp: 1785023048385
 experiment_id: '909505011511726642'
 last_updated_timestamp: 1785023063230
