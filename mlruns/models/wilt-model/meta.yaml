@@ -1,9 +1,9 @@
 aliases:
-  production: '6'
+  production: '8'
 creation_timestamp: 1785023042692
 deployment_job_id: null
 deployment_job_state: null
 description: null
-last_updated_timestamp: 1785025259076
+last_updated_timestamp: 1785025761256
 name: wilt-model
 workspace: default
