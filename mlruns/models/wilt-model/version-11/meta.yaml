@@ -1,0 +1,16 @@
+creation_timestamp: 1785036309696
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1785036309696
+model_id: m-eaf7d5b44dab435980dd2db514b03cca
+name: wilt-model
+run_id: 1ace71ed628641d0a1e088002755ff28
+run_link: null
+source: models:/m-eaf7d5b44dab435980dd2db514b03cca
+status: READY
+status_message: null
+storage_location: file:./mlruns/909505011511726642/models/m-eaf7d5b44dab435980dd2db514b03cca/artifacts
+user_id: null
+version: 11
+workspace: default
