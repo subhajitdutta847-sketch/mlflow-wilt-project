@@ -1,0 +1,14 @@
+artifact_uri: file:./mlruns/909505011511726642/d7a72df1e80b4761bb1c5e6c7c55487c/artifacts
+end_time: 1785227197878
+entry_point_name: ''
+experiment_id: '909505011511726642'
+lifecycle_stage: active
+run_id: d7a72df1e80b4761bb1c5e6c7c55487c
+run_name: random_forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1785227181165
+status: 3
+tags: []
+user_id: subha
