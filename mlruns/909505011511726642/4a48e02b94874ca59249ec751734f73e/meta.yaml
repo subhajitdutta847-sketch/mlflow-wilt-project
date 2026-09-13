@@ -1,0 +1,14 @@
+artifact_uri: file:./mlruns/909505011511726642/4a48e02b94874ca59249ec751734f73e/artifacts
+end_time: 1789272270203
+entry_point_name: ''
+experiment_id: '909505011511726642'
+lifecycle_stage: active
+run_id: 4a48e02b94874ca59249ec751734f73e
+run_name: baseline_logreg
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1789272261237
+status: 3
+tags: []
+user_id: runner
